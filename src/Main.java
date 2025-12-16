@@ -21,7 +21,7 @@ public class Main {
     System.out.println(b1);
     System.out.println(b2);
 
-    // Проверка изменения статуса книги
+
     b1.markAsBorrowed();
     System.out.println("После взятия книги: " + b1);
 
