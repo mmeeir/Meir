@@ -10,7 +10,7 @@ public class LibraryApp {
         scanner = new Scanner(System.in);
     }
 
-    // главный метод запуска приложения
+
     public void run() {
         boolean running = true;
 
@@ -46,7 +46,7 @@ public class LibraryApp {
                     System.out.println("Invalid choice. Please try again.");
             }
 
-            System.out.println(); // пустая строка для красоты
+            System.out.println();
         }
     }
 
@@ -154,7 +154,7 @@ public class LibraryApp {
         }
     }
 
-    // вспомогательный метод поиска книги по id
+
     private Book findBookById(int id) {
         for (Book book : books) {
             if (book.getId() == id) return book;
@@ -162,7 +162,7 @@ public class LibraryApp {
         return null;
     }
 
-    // запуск приложения
+
     public static void main(String[] args) {
         LibraryApp app = new LibraryApp();
         app.run();
