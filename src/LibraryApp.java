@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 public class LibraryApp {
-    private List<Book> books;  // список всех книг
-    private Scanner scanner;   // для чтения с консоли
+    private List<Book> books;
+    private Scanner scanner;
 
     public LibraryApp() {
         books = new ArrayList<>();
